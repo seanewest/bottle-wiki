@@ -51,4 +51,4 @@ def edit():
 
 if __name__ == '__main__':
     db = Wikidb()
-    run(host='localhost', port=8080, debug=True)
+    run(host='0.0.0.0', port=8080, debug=True)
